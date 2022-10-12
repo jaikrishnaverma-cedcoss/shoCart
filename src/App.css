@@ -1,0 +1,75 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100vh; */
+
+}
+.nav{
+  background-color: black;
+  color: white;
+}
+td{
+  text-align: center;
+}
+.p3{
+  padding: 0% 3%;
+}
+.p1{
+  padding: 0% 1%;
+}
+.div1{
+  flex-wrap: wrap ;
+}
+/* table tr,table tr td button,table tr td{
+  font-size: .2rem !important;
+}
+.btn {
+  min-width: 15px !important;
+  min-height: 27px !important;
+  padding: 2px 4px 2px 4px !important;
+} */
+@media only screen and (max-width: 600px) {
+ table tr,table tr td button,table tr td{
+  font-size: .7rem ;
+}
+.ww{
+  width: 90% !important;
+}
+.btn {
+  min-width: 20px !important;
+  min-height: 20px !important;
+  padding: 2px 4px 2px 4px !important;
+  font-size: .7rem !important;
+}
+img.card{
+  width: 50px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width:900px) {
+  table tr,table tr td button,table tr td{
+    font-size: .9rem ;
+  }
+  .ww{
+    width: 90% !important;
+  }
+  .btn {
+    min-width: 25px !important;
+    min-height: 25px !important;
+    padding: 3px 6px 3px 6px !important;
+    font-size: .9rem !important;
+  }
+  img.card{
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width:1080px) {
+  .ww{
+    width: 80% !important;
+  }
+}
+.btn-info{
+   background-color: rgba(254, 90, 194, 0.882) !important;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
